@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
-  @Input() lightMode = true;
+  @Input() darkMode = true;
   constructor() { }
 
   ngOnInit(): void {
