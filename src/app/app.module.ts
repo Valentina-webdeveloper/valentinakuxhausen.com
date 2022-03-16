@@ -9,6 +9,7 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { FooterComponent } from './footer/footer.component';
 import { SkillsComponent } from './skills/skills.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SkillsComponent } from './skills/skills.component';
     ImprintComponent,
     DataProtectionComponent,
     FooterComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
