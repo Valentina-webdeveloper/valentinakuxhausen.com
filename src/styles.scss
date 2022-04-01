@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .center {
@@ -8,8 +8,17 @@ body {
     justify-content: center;
 }
 
+// .row {
+//     display: flex;
+//     flex-direction: row;
+// }
+
 .column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+}
+
+img:hover {
+    cursor: pointer;
 }

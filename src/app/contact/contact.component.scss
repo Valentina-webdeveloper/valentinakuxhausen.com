@@ -1,0 +1,25 @@
+.contact-fields {
+    background-color: rgb(125, 120, 144);
+    margin: 12px;
+    padding: 16px;
+    border: none;
+
+}
+
+.input {
+    width: 500px;
+    border: none;
+    color: white;
+}
+
+.textarea {
+    width: 500px;
+    height: 200px;
+    border: none;
+    color: white;
+   
+}
+
+::placeholder {
+    color: white;
+}

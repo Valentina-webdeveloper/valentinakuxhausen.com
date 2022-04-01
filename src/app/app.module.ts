@@ -10,6 +10,7 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
 import { FooterComponent } from './footer/footer.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProjectsComponent } from './projects/projects.component';
     DataProtectionComponent,
     FooterComponent,
     SkillsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
