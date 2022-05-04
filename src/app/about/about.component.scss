@@ -1,0 +1,59 @@
+.slideshow-container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.profile-img {
+    width: 300px;
+    margin-top: 50px;
+}
+
+.relative {
+    position: relative;
+}
+
+.profile-wrap {
+    width: 50%;
+    margin-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    img {
+        width: 16rem;
+        height: 16rem;
+        border-radius: 50%;
+        object-fit: contain;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    p {
+        text-align: center;
+        width: 60%;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    strong {
+        color: #05C2C9;
+    }
+
+}
+
+.skills-wrap {
+    width: 50%;
+    border-radius: 5%;
+    padding-right: 2rem;
+    font-size: 1rem;
+}
+
+.who-wrap {
+    display: flex;
+    padding-bottom: 4rem;
+    align-items: center;
+} 
+
+

@@ -3,15 +3,30 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.bgr-dark {
+    background-color: #112233;
+    color: white;
+}
+
+.bgr-bright {
+    background-color: #32465a;
+    color: white;
+}
+
+.height-vh {
+    height: 100vh;
+}
+
+h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: 300;
+}
+
 .center {
     display: flex;
     justify-content: center;
 }
-
-// .row {
-//     display: flex;
-//     flex-direction: row;
-// }
 
 .column {
     display: flex;
@@ -21,4 +36,8 @@ body {
 
 img:hover {
     cursor: pointer;
+}
+
+.height-vh {
+    height: 100vh;
 }
