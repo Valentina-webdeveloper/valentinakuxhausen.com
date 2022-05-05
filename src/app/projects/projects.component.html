@@ -8,10 +8,13 @@
 
 
     <div class="column">
+        <span class="font-türkis">Please check out my projects. Select a project for more information.</span>
         <!-- NGFOR PROJECTS -->
         <div *ngFor="let project of projects">
-            <img class="project-img" src="{{ projects.image }}">
-        </div>
+
+            <img class="project-img" src="{{ project.image }}">
+            <span class="project-name"> {{ project.name }}</span>
+            <span> {{ project.description }}</span>
     </div>
 
 

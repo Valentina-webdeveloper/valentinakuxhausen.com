@@ -9,11 +9,11 @@ export class ProjectsComponent implements OnInit {
   // JSONs
   projects = [{
     'name': 'Join',
-    'image': '<img src="assets/img/join.png">',
+    'image': 'assets/img/join.png',
     'description': 'Task Management System'
     },{
     'name': 'Ring of Fire',
-    'image': '<img src="assets/img/ring_of_fire.png">',
+    'image': 'assets/img/ring_of_fire.png',
     'description': 'Task Management System'
     }
   ]

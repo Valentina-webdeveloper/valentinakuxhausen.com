@@ -1,21 +1,19 @@
-.slideshow-container {
+.height-vh {
     height: 100vh;
-    width: 100vw;
-    overflow: hidden;
+    // overflow: hidden;
+    // width: 100vw;
 }
 
-.profile-img {
-    width: 300px;
-    margin-top: 50px;
-}
-
-.relative {
-    position: relative;
-}
+.about-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 50vw;
+} 
 
 .profile-wrap {
     width: 50%;
-    margin-right: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +36,7 @@
     }
 
     strong {
-        color: #05C2C9;
+        color: #a03ce2;
     }
 
 }
@@ -49,11 +47,4 @@
     padding-right: 2rem;
     font-size: 1rem;
 }
-
-.who-wrap {
-    display: flex;
-    padding-bottom: 4rem;
-    align-items: center;
-} 
-
 
