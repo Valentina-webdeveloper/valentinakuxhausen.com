@@ -6,10 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
+  // JSONs
+  projects = [{
+    'name': 'Join',
+    'image': '<img src="assets/img/join.png">',
+    'description': 'Task Management System'
+    },{
+    'name': 'Ring of Fire',
+    'image': '<img src="assets/img/ring_of_fire.png">',
+    'description': 'Task Management System'
+    }
+  ]
 
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  //NGFOR IN HTML - SHOW PROJECTS
+
+
+
 
 }

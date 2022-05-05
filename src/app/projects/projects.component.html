@@ -7,16 +7,10 @@
     <h1 class="center">PROJECTS</h1>
 
 
-    <!-- NGFOR PROJECTS -->
     <div class="column">
-        <div>
-            <img class="project-img" src="assets/img/el_pollo_loco.png" alt="">
-        </div>
-        <div>
-            <img class="project-img" src="assets/img/join.png" alt="">
-        </div>
-        <div>
-            <img class="project-img" src="assets/img/ring_of_fire.png" alt="">
+        <!-- NGFOR PROJECTS -->
+        <div *ngFor="let project of projects">
+            <img class="project-img" src="{{ projects.image }}">
         </div>
     </div>
 
