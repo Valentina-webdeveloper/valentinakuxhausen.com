@@ -1,20 +1,17 @@
-<div id="projects" class="bgr-dark">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+<div id="projects" class="bgr-dark padding padding-top-bottom">
     <h1 class="center">PROJECTS</h1>
 
 
     <div class="column">
-        <span class="font-türkis">Please check out my projects. Select a project for more information.</span>
+        <span class="font-türkis">Please check out my projects. Select a project to try it online.</span>
         <!-- NGFOR PROJECTS -->
-        <div *ngFor="let project of projects">
+        <div class="single-project" *ngFor="let project of projects">
 
             <img class="project-img" src="{{ project.image }}">
             <span class="project-name"> {{ project.name }}</span>
             <span> {{ project.description }}</span>
+            <a target="_blank" href="{{ project.link }}">Try it online</a>
+            <a target="_blank" href="http://valentina-kuxhausen.developerakademie.net/m10_gruppenarbeit_join_ftp/gruppenarbeit-174/addtask.html">Test</a>
     </div>
 
 

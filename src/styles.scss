@@ -13,6 +13,16 @@ body {
     color: white;
 }
 
+.padding {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.padding-top-bottom {
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
 .height-vh {
     height: 100vh;
 }
@@ -21,6 +31,10 @@ h1 {
     margin-block-start: 0;
     margin-block-end: 0;
     font-weight: 300;
+}
+
+.bottom {
+    padding-bottom: 120px;
 }
 
 .center {
@@ -40,4 +54,8 @@ img:hover {
 
 .height-vh {
     height: 100vh;
+}
+
+.single-project {
+    padding-bottom: 50px;
 }
