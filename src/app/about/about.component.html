@@ -18,8 +18,21 @@
         <!-- SKILLS-WRAP -->
         <div class="skills-wrap">
             <span>here will be several skills in progress bars untereinander</span>
-        </div>
 
+            <!-- <div class="bar" *ngFor="let skill of skills">
+                <div class="bar-scale">
+                    <div class="bar-fill" [style.width]="skill.skillLevel + '%'"></div>
+                    <div class="bar-tag flex"> {{ skill.skillName }}</div>
+                </div>
+            </div> -->
+
+            <div class="progress">
+                <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+
+              <div class="skill-bar" *ngFor="let i of skills">
+                <div>{{ skills[i] </div>
+              </div>
 
     </div>
 </div>
