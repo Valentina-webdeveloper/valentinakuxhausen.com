@@ -10,14 +10,21 @@ export class ProjectsComponent implements OnInit {
   projects = [{
     'name': 'Join',
     'image': 'assets/img/join.png',
+    'technology': 'JavaScript',
     'description': 'Task Management System',
-    'link': 'url("http://valentina-kuxhausen.developerakademie.net/m10_gruppenarbeit_join_ftp/gruppenarbeit-174/addtask.html")'
+    'link': 'http://valentina-kuxhausen.developerakademie.net/m10_gruppenarbeit_join_ftp/gruppenarbeit-174/addtask.html'
     },{
     'name': 'Ring of Fire',
     'image': 'assets/img/ring_of_fire.png',
+    'technology': 'Angular',
     'description': 'Multiple players card game',
-    'link': 'href=http://valentina-kuxhausen.developerakademie.net/m10_gruppenarbeit_join_ftp/gruppenarbeit-174/addtask.html'
-
+    'link': 'http://valentina-kuxhausen.developerakademie.net/ringoffire/index.html'
+    },{
+    'name': 'El Pollo Loco',
+    'image': 'assets/img/el_pollo_loco.png',
+    'technology': 'JavaScript',
+    'description': 'Jump and run game',
+    'link': 'http://valentina-kuxhausen.developerakademie.net/m11_el_pollo_loco/index.html'
     }
   ]
 

@@ -5,14 +5,20 @@
     <div class="column">
         <span class="font-türkis">Please check out my projects. Select a project to try it online.</span>
         <!-- NGFOR PROJECTS -->
-        <div class="single-project" *ngFor="let project of projects">
-
-            <img class="project-img" src="{{ project.image }}">
-            <span class="project-name"> {{ project.name }}</span>
-            <span> {{ project.description }}</span>
-            <a target="_blank" href="{{ project.link }}">Try it online</a>
-            <!-- ng-href="{{ project.link }}" -->
-    </div>
+        <!-- PROJECT-WRAP -->
+        <div class="project-wrap" *ngFor="let project of projects">
+            <!-- IMG WRAP -->
+            <div class="img-wrap">
+                <img class="project-img" src="{{ project.image }}">
+            </div>
+            <!-- INFO-WRAP -->
+            <div class="info-wrap">
+                <span class="project-name"> {{ project.name }}</span>
+                <span class="project-desc"> {{ project.description }}</span>
+                <span class="project-tech">{{ project.technology }}</span>
+                <a class="project-link" target="_blank" href="{{ project.link }}">Try it online</a>
+            </div>
+        </div>
 
 
 </div>
