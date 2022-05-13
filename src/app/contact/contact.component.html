@@ -24,8 +24,9 @@
                 class="input contact-fields" 
                 type="text" 
                 placeholder="Your email"
+                id="email"
                 required
-                [(ngModel)]="contact.name"
+                [(ngModel)]="contact.email"
                 name="email"
                 #email="ngModel"
                 >
@@ -35,10 +36,10 @@
                 class="textarea contact-fields" 
                 placeholder="Your message"
                 name=""
-                id=""
+                id="message"
                 rows="10"
                 required
-                [(ngModel)]="contact.name"
+                [(ngModel)]="contact.message"
                 name="message"
                 #message="ngModel"
                 ></textarea>
