@@ -11,6 +11,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule } from '@angular/forms';
+// contact
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { NavigationService } from './navigation.service';
 
 @NgModule({
   declarations: [
@@ -21,14 +24,16 @@ import { FormsModule } from '@angular/forms';
     DataProtectionComponent,
     FooterComponent,
     AboutComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [NavigationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
