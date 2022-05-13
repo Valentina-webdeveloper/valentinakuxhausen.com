@@ -1,12 +1,57 @@
 <div id="contact" class="bgr-bright padding padding-top-bottom">
     <h1 class="center">CONTACT</h1>
     <span class="center">Get in touch to work together?</span>
-    <div class="column-contact">
 
-        <input class="input contact-fields" type="text" placeholder="Your name">
-        <input class="input contact-fields" type="text" placeholder="Your email">
-        <textarea class="textarea contact-fields" placeholder="Your message"></textarea>
-        <button class="button margin-bottom">Submit</button>
 
-    </div>
+    <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+        <div class="column-contact">
+
+
+            <div>
+                <input 
+                class="input contact-fields" 
+                type="text" 
+                placeholder="Your name"
+                id="name"
+                required
+                [(ngModel)]="contact.name"
+                name="name"
+                #name="ngModel"
+                >
+            </div>
+            <div>
+                <input 
+                class="input contact-fields" 
+                type="text" 
+                placeholder="Your email"
+                required
+                [(ngModel)]="contact.name"
+                name="email"
+                #email="ngModel"
+                >
+            </div>            
+            <div>
+                <textarea 
+                class="textarea contact-fields" 
+                placeholder="Your message"
+                name=""
+                id=""
+                rows="10"
+                required
+                [(ngModel)]="contact.name"
+                name="message"
+                #message="ngModel"
+                ></textarea>
+            </div>
+            <div>
+                <button 
+                class="button margin-bottom"
+                type="submit"
+                [disabled]="!contactForm.form.valid"
+                >Submit</button>
+            </div>
+
+
+        </div>
+    </form>
 </div>
