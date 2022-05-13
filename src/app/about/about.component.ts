@@ -8,11 +8,20 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
 
   //JSON-ARRAY WITH SKILLS
-  skills = ['Angular','JavaScript','HTML & SCSS','Rest API','Databases','Test Automation', 'Git', 'Scrum']
+  skills = ['Angular','JavaScript','HTML & SCSS','Rest API','Git','Scrum','Databases','Test Automation']
 
   constructor() { }
 
+  skillFlyAnimation = false;
+
+  skillFly() {
+    setTimeout(function () { 
+      this.skillFlyAnimation = true;
+    }, 2000);
+  }
+
   ngOnInit(): void {
+    this.skillFly();
   }
 
 }

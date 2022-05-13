@@ -19,7 +19,7 @@
         <div class="skills-wrap">
 
             <div class="skill-bar" *ngFor="let i of skills">
-              <div>{{ i }}</div>
+              <div *ngIf="skillFlyAnimation">{{ i }}</div>
             </div>
 
     </div>

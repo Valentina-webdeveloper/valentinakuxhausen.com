@@ -5,7 +5,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 24px;
     background-color: #112233;
     
     a {
@@ -18,13 +18,13 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 20rem;
-    margin-top: 2rem;
+    width: 330px;
+    margin-top: 24px;
 
     img {
-        font-size: 2.5rem;
+        font-size: 12px;
         background-color: #112233;
-        padding: 1rem;
+        padding: 12px;
         transition: 225ms all ease-in-out;
     }
 
@@ -37,12 +37,12 @@ footer {
     a {
         color: #fff;
         text-decoration: none;
-        margin: 1rem 0.5rem;
+        margin: 8px 12px;
         transition: 125ms all ease-in-out;
         text-align: center;
 
         &:hover {
-            color: gray;
+            color: #32465a;
         }
     }
 }
@@ -50,6 +50,6 @@ footer {
 .copy-wrap {
 
     p {
-        color: gray;
+        color: #32465a;
     }
 }

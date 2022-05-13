@@ -19,20 +19,20 @@
 
 
     img {
-        width: 16rem;
-        height: 16rem;
+        width: 250px;
+        height: 250px;
         border-radius: 50%;
         object-fit: contain;
         cursor:default;
     }
     h2 {
-        font-size: 1.8rem;
+        font-size: 24px;
     }
     p {
         text-align: center;
-        width: 60%;
-        font-size: 1.2rem;
-        line-height: 1.8rem;
+        width: 70%;
+        font-size: 20px;
+        line-height: 24px;
     }
 
     strong {
@@ -44,7 +44,28 @@
 .skills-wrap {
     width: 50%;
     border-radius: 5%;
-    padding-right: 2rem;
-    font-size: 1rem;
+    padding-left: 32px;
+    font-size: 16px;
 }
 
+// ANIMATION
+
+.skill-fly {
+    animation: skill-fly-animation 1.5s ease-in-out;
+    transform: scale(1) translateX(280px);
+ }
+
+@keyframes skill-fly-animation {
+    0% {
+        transform: scale(1);
+    }
+    33% {
+        transform: scale(1.33);
+    }
+    66% {
+        transform: scale(1.66);
+    }
+    100% {
+        transform: scale(1) translateX(280px);
+    }
+}
