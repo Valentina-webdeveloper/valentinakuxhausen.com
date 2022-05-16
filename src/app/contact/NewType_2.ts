@@ -1,1 +1,1 @@
-export type NewType_2 = HttpClient;
+// export type NewType_2 = HttpClient;

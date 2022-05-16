@@ -1,1 +1,1 @@
-export type NewType = NavigationService;
+// export type NewType = NavigationService;
