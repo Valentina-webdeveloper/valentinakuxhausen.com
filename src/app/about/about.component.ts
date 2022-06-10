@@ -15,7 +15,7 @@ export class AboutComponent implements OnInit {
   skillFlyAnimation = false;
 
   skillFly() {
-    setTimeout(function () { 
+    setTimeout(() => {
       this.skillFlyAnimation = true;
     }, 2000);
   }
