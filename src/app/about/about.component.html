@@ -2,7 +2,6 @@
     <h1 class="center bottom">ABOUT</h1>
     <!-- GESAMTE ABOUT-WRAP -->
     <div class="about-wrap">
-        
 
         <!-- PROFILE-WRAP -->
         <div class="profile-wrap">
@@ -10,17 +9,19 @@
             <h2>Who I am</h2>
             <p>
                 I'm an enthusiastic <strong>guitarist, drumer</strong>
-                and a <strong>Front-End Developer</strong> who loves pushing boundaries.      
+                and a <strong>Front-End Developer</strong> who loves pushing boundaries.
             </p>
         </div>
 
-
         <!-- SKILLS-WRAP -->
         <div class="skills-wrap">
-
-            <div class="skill-bar" *ngFor="let i of skills">
-              <div *ngIf="skillFlyAnimation">{{ i }}</div>
+            <h1 (click)="event=!event">
+                click to see my skills
+            </h1>
+            <div @fadeIn class="skill-bar" *ngFor="let i of skills">
+                <div>{{ i }}</div>
             </div>
-
+        </div>
+        
     </div>
 </div>

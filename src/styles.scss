@@ -1,6 +1,11 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .bgr-dark {
@@ -21,10 +26,6 @@ body {
 .padding-top-bottom {
     padding-top: 85px;
     padding-bottom: 85px;
-}
-
-.height-vh {
-    height: 100vh;
 }
 
 h1 {
@@ -50,10 +51,6 @@ h1 {
 
 img:hover {
     cursor: pointer;
-}
-
-.height-vh {
-    height: 100vh;
 }
 
 .single-project {

@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 // contact
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NavigationService } from './navigation.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { NavigationService } from './navigation.service';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [NavigationService],
   bootstrap: [AppComponent]

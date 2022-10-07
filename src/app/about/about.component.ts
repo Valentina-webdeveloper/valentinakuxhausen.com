@@ -1,27 +1,36 @@
 import { Component, OnInit } from '@angular/core';
+import {
+  trigger,
+  state,
+  style,
+  animate,
+  transition
+} from '@angular/animations';
 
 @Component({
   selector: 'app-about',
   templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  styleUrls: ['./about.component.scss'],
+  animations: [
+    trigger('fadeIn', [
+      transition(':enter', [
+        style({ opacity: 0 }),
+        animate('250ms', style({ opacity: 1 }))
+      ])
+    ])
+  ]
 })
+
 export class AboutComponent implements OnInit {
 
-  //JSON-ARRAY WITH SKILLS
-  skills = ['Angular','JavaScript','HTML & SCSS','Rest API','Git','Scrum','Databases','Test Automation']
+  skills = ['Angular','JavaScript','HTML & CSS','Rest API','Git','Scrum','Databases','Test Automation']
 
-  constructor() { }
+  public event: boolean;
 
-  skillFlyAnimation = false;
+  constructor() { 
+    this.event = false;
+   }
 
-  skillFly() {
-    setTimeout(() => {
-      this.skillFlyAnimation = true;
-    }, 2000);
-  }
-
-  ngOnInit(): void {
-    this.skillFly();
-  }
+  ngOnInit(): void {  }
 
 }
