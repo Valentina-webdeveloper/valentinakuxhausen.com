@@ -18,10 +18,10 @@
             <h1 (click)="event=!event">
                 click to see my skills
             </h1>
-            <div @fadeIn class="skill-bar" *ngFor="let i of skills">
-                <div>{{ i }}</div>
+            <div @fadeIn *ngIf="event" class="skill-bar">
+                <div *ngFor="let i of skills">{{ i }}</div>
             </div>
         </div>
-        
+
     </div>
 </div>
