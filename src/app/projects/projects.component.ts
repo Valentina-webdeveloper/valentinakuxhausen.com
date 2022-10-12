@@ -12,7 +12,7 @@ export class ProjectsComponent implements OnInit {
     'image': 'assets/img/join169.png',
     'technology': 'HTML, CSS, JavaScript',
     'description': 'Task Management System',
-    'link': 'http://valentina-kuxhausen.developerakademie.net/m10_gruppenarbeit_join_ftp/gruppenarbeit-174/addtask.html'
+    'link': 'http://valentina-kuxhausen.developerakademie.net/join/addtask.html'
     },{
     'name': 'Ring of Fire',
     'image': 'assets/img/ring_of_fire169.png',
