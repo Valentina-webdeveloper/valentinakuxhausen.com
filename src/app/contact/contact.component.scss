@@ -50,5 +50,8 @@ span {
     color: white;
     border-radius: 2px;
     cursor: pointer;
-}
 
+    &:hover {
+        box-shadow: 0 0 8px #a03ce2;
+    }
+}

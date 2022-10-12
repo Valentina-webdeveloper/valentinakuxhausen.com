@@ -3,52 +3,43 @@
     <span class="center">Get in touch to work together?</span>
 
 
-    <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" action="http://w01cc74e.kasserver.com/valentinakuxhausen.com/send_mail.php" method="post">
+    <form 
+    (ngSubmit)="onSubmit()" 
+    #contactForm>
         <div class="column-contact">
 
 
             <div>
                 <input 
                 class="input contact-fields" 
-                type="text" 
+                type="text"
+                name="name" 
                 placeholder="Your name"
-                id="name"
                 required
-                [(ngModel)]="contact.name"
-                name="name"
-                #name="ngModel"
                 >
             </div>
             <div>
                 <input 
                 class="input contact-fields" 
                 type="text" 
-                placeholder="Your email"
-                id="email"
-                required
-                [(ngModel)]="contact.email"
                 name="email"
-                #email="ngModel"
+                placeholder="Your email"
+                required
                 >
             </div>            
             <div>
                 <textarea 
                 class="textarea contact-fields" 
                 placeholder="Your message"
-                name=""
-                id="message"
+                name="message"
                 rows="10"
                 required
-                [(ngModel)]="contact.message"
-                name="message"
-                #message="ngModel"
                 ></textarea>
             </div>
             <div>
                 <button 
                 class="button margin-bottom"
                 type="submit"
-                [disabled]="!contactForm.form.valid"
                 >Submit</button>
             </div>
 
