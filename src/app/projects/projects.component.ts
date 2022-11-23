@@ -8,12 +8,12 @@ import { Component, OnInit } from '@angular/core';
 export class ProjectsComponent implements OnInit {
   // JSONs
   projects = [{
-    'name': 'Join',
+    'name': 'funktionnierender Link für Join',
     'image': 'assets/img/join169.png',
     'technology': 'HTML, CSS, JavaScript',
     'description': 'Task Management System',
-    'link': 'http://valentina-kuxhausen.developerakademie.net/join/addtask.html'
-    },{
+    'link': 'http://valentina-kuxhausen.developerakademie.net/gruppenarbeit-174/addtask.html'
+    },{    
     'name': 'Ring of Fire',
     'image': 'assets/img/ring_of_fire169.png',
     'technology': 'HTML, SCSS, Angular/TypeScript',
