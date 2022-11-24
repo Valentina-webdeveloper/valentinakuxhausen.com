@@ -3,7 +3,7 @@
     <span class="center">Get in touch to work together?</span>
 
 
-    <form action="https://valentina-kuxhausen.developerakademie.net/valentinakuxhausen/send_mail/send_mail.php" method="POST" class="form">
+    <form #form action="https://valentina-kuxhausen.developerakademie.net/valentinakuxhausen/send_mail/send_mail.php" method="POST" class="form">
         <div class="column-contact">
 
 
@@ -36,6 +36,8 @@
             </div>
             <div>
                 <button 
+                routerLink="/contactsuccess"
+                (click)="form.submit()"
                 class="button margin-bottom"
                 type="submit"
                 >Submit</button>
