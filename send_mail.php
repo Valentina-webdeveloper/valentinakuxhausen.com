@@ -3,7 +3,7 @@
 ########### CONFIG ###############
 
 $recipient = 'valentina.kuxhausen@web.de';
-$redirect = 'https://valentina-kuxhausen.developerakademie.net/valentinakuxhausen/.htaccess';
+$redirect = 'https://valentina-kuxhausen.developerakademie.net/valentinakuxhausen/contactsuccess';
 
 ########### CONFIG END ###########
 

@@ -1,5 +1,4 @@
 RewriteEngine On
-
 RewriteCond %{REQUEST_FILENAME} -s [OR]
 
 RewriteCond %{REQUEST_FILENAME} -l [OR]
@@ -10,4 +9,4 @@ RewriteRule ^.*$ - [NC,L]
 
 
 
-RewriteRule ^(.*) /index.html [NC,L]
+RewriteRule ^(.*) /valentinakuxhausen/index.html [NC,L]
