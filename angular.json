@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "m_12_valentinakuxhausen": {
+    "valentinakuxhausen": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/m_12_valentinakuxhausen",
+            "outputPath": "dist/valentinakuxhausen",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "m_12_valentinakuxhausen:build:production"
+              "browserTarget": "valentinakuxhausen:build:production"
             },
             "development": {
-              "browserTarget": "m_12_valentinakuxhausen:build:development"
+              "browserTarget": "valentinakuxhausen:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "m_12_valentinakuxhausen:build"
+            "browserTarget": "valentinakuxhausen:build"
           }
         },
         "test": {
@@ -106,5 +106,5 @@
       }
     }
   },
-  "defaultProject": "m_12_valentinakuxhausen"
+  "defaultProject": "valentinakuxhausen"
 }

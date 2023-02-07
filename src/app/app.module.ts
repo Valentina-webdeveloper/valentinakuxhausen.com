@@ -17,6 +17,7 @@ import { NavigationService } from './navigation.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ContactSuccessComponent } from './contact-success/contact-success.component';
+import { MySkillsComponent } from './my-skills/my-skills.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ContactSuccessComponent } from './contact-success/contact-success.compo
     AboutComponent,
     ProjectsComponent,
     ContactComponent,
-    ContactSuccessComponent
+    ContactSuccessComponent,
+    MySkillsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,17 @@
+<div id="my_skills" class="my_skills_section section_distance">
+    <div class="top_section">
+        <h2 class="my_skills_text">MY Skills</h2>
+    </div>
+
+    <div class="bottom_section">
+
+        <div class="bottom_section_div">
+            <div data-aos="fade-right" data-aos-duration="800" *ngFor="let skill of skills" class="skill_element_div">
+                <div class="icon_circle">
+                    <img class="skill_icon" src="assets/img/{{ skill.icon }}">
+                </div>
+                {{ skill.name }}
+            </div>
+        </div>
+    </div>
+</div>
