@@ -1,20 +1,12 @@
-<div id="projects" class="bgr-dark padding padding-top-bottom">
+<!-- <div id="projects" class="bgr-bright padding padding-top-bottom">
     <h1 class="center">PROJECTS</h1>
-
-
     <div class="column">
         <span class="font-türkis">Please check out my projects. Select a project to try it online.</span>
-        <!-- NGFOR PROJECTS -->
-        <!-- PROJECT-WRAP -->
         <div class="column" *ngFor="let project of projects">
-
-
             <div class="project-wrap">
-                <!-- IMG WRAP -->
                 <div class="img-wrap">
                     <img class="project-img" src="{{ project.image }}">
                 </div>
-                <!-- INFO-WRAP -->
                 <div class="info-wrap">
                     <span class="project-name"> {{ project.name }}</span>
                     <span class="project-desc"> {{ project.description }}</span>
@@ -22,12 +14,49 @@
                     <a target="_blank" href="{{ project.link }}">Try it online</a>
                 </div>
             </div>
-
             <div class="separate-project">
             </div>
+        </div>
+</div> -->
+
+
+<div id="my-projects" class="bgr-bright my-prijects-div div-distance">
+    <div class="top-div">
+        <h1 class="my-projects-h">MY PROJECTS</h1>
+    </div>
+
+
+    <div class="bottom-div">
+        <div class="preview">
+
+
+            <div data-aos="zoom-in-right" data-aos-duration="800" class="skill-preview">
+                <div class="transition desc-hidden">
+                    <h3>Join</h3>
+                    <p>Kanbanboard (developed with JavaScript)</p>
+                    <a href="http://valentina-kuxhausen.developerakademie.net/gruppenarbeit-174/addtask.html" target="_blank">
+                        <button class="transition try-button">Try Out</button></a>
+                    <a href="https://github.com/LorenzFuchs/gruppenarbeit-174" target="_blank">
+                        <button class="transition try-button">GitHub</button></a>
+                </div>
+                <img class="skill-preview-img" src="">
+            </div>
+
+
+            <div data-aos="zoom-in-right" data-aos-duration="800" class="skill-preview">
+                <div class="transition desc-hidden">
+                    <h3>Ring of Fire</h3>
+                    <p>Cardgame (developed with Angular)</p>
+                    <a href="http://ringoffire.valentinakuxhausen.com" target="_blank">
+                        <button class="transition try-button">Try Out</button></a>
+                    <a href="https://github.com/ValentinaKuxhausen/Ring-Of-Fire" target="_blank">
+                        <button class="transition try-button">GitHub</button></a>
+                </div>
+                <img class="skill-preview-img" src="assets/img/ringoffire.jpg">
+            </div>
+
 
         </div>
 
-
-
+    </div>
 </div>

@@ -6,28 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-  // JSONs
-  projects = [{
-    'name': 'funktionnierender Link für Join',
-    'image': 'assets/img/join169.png',
-    'technology': 'HTML, CSS, JavaScript',
-    'description': 'Task Management System',
-    'link': 'http://valentina-kuxhausen.developerakademie.net/gruppenarbeit-174/addtask.html'
-    },{    
-    'name': 'Ring of Fire',
-    'image': 'assets/img/ring_of_fire169.png',
-    'technology': 'HTML, SCSS, Angular/TypeScript',
-    'description': 'Multiple players card game',
-    'link': 'http://ringoffire.valentinakuxhausen.com'
-    },
-    // {
-    // 'name': 'El Pollo Loco',
-    // 'image': 'assets/img/el_pollo_loco169.png',
-    // 'technology': 'HTML, CSS, JavaScript',
-    // 'description': 'Jump and run game',
-    // 'link': 'http://valentina-kuxhausen.developerakademie.net/m11_el_pollo_loco/index.html'
-    // }
-  ]
+
+  // projects = [{
+  //   'name': 'funktionnierender Link für Join',
+  //   'image': 'assets/img/join169.png',
+  //   'technology': 'HTML, CSS, JavaScript',
+  //   'description': 'Task Management System',
+  //   'link': 'http://valentina-kuxhausen.developerakademie.net/gruppenarbeit-174/addtask.html'
+  //   },{    
+  //   'name': 'Ring of Fire',
+  //   'image': 'assets/img/ring_of_fire169.png',
+  //   'technology': 'HTML, SCSS, Angular/TypeScript',
+  //   'description': 'Multiple players card game',
+  //   'link': 'http://ringoffire.valentinakuxhausen.com'
+  //   },
+  // ]
 
   constructor() { }
 

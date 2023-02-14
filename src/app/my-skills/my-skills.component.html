@@ -1,14 +1,14 @@
-<div id="my_skills" class="my_skills_section section_distance">
-    <div class="top_section">
-        <h2 class="my_skills_text">MY Skills</h2>
+<div id="my-skills" class="my-skills-div div-distance">
+    <div class="top-div">
+        <h1 class="my-skills-h">MY SKILLS</h1>
     </div>
 
-    <div class="bottom_section">
+    <div class="bottom-div">
 
-        <div class="bottom_section_div">
-            <div data-aos="fade-right" data-aos-duration="800" *ngFor="let skill of skills" class="skill_element_div">
-                <div class="icon_circle">
-                    <img class="skill_icon" src="assets/img/{{ skill.icon }}">
+        <div class="bottom-div-div">
+            <div data-aos="fade-right" data-aos-duration="800" *ngFor="let skill of skills" class="skill-element-div">
+                <div class="icon-circle">
+                    <img class="skill-icon" src="assets/img/{{ skill.icon }}">
                 </div>
                 {{ skill.name }}
             </div>

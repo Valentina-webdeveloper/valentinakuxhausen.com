@@ -6,7 +6,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 24px;
-    background-color: #112233;
+    background-color: #32465a;
     
     a {
         text-decoration: none;
@@ -23,7 +23,7 @@ footer {
 
     img {
         font-size: 12px;
-        background-color: #112233;
+        background-color: #32465a;
         padding: 12px;
         transition: 225ms all ease-in-out;
     }
@@ -42,7 +42,8 @@ footer {
         text-align: center;
 
         &:hover {
-            color: #32465a;
+            text-shadow: 0 0 6px  white;
+
         }
     }
 }
@@ -50,6 +51,7 @@ footer {
 .copy-wrap {
 
     p {
-        color: #32465a;
+        color: #112233;
+        
     }
 }

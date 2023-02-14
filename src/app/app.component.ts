@@ -1,17 +1,20 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title(title: any) {
-    throw new Error('Method not implemented.');
+
+export class AppComponent implements OnInit {
+
+  ngOnInit(): void {
+    AOS.init();
   }
 
-  constructor(public router: Router) { }
+  title = 'portfolio';
 
 
 }
+
