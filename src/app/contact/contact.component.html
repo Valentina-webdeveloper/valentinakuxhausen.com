@@ -1,49 +1,49 @@
-<div id="contact" class="bgr-dark padding padding-top-bottom">
-    <h1 class="center">CONTACT</h1>
-    <span class="center">Get in touch to work together?</span>
-
-
-    <form #form action="https://valentina-kuxhausen.developerakademie.net/valentinakuxhausen/send_mail.php" method="POST" class="form">
+<div id="contact" class="bgr-bright contact-div div-distance">
+    <div class="contact-div-div">
         <div class="column-contact">
-
+            <h1 data-aos="flip-right" data-aos-duration="800">CONTACT</h1><br>
+            <span>Get in touch to work together?</span>
+        </div>        
+        <form action="https://valentinakuxhausen.com/send_mail.php" 
+        method="POST" 
+        class="column-contact">
 
             <div>
+                <h4>Name</h4>
                 <input 
-                class="input contact-fields" 
-                type="text"
                 name="name" 
-                placeholder="Your name"
-                required
-                >
+                required class="input contact-fields" 
+                placeholder="Enter your Name" 
+                type="text">
             </div>
+
             <div>
+                <h4>E-Mail</h4>
                 <input 
+                name="email" 
+                required 
                 class="input contact-fields" 
-                type="text" 
-                name="email"
-                placeholder="Your email"
-                required
-                >
-            </div>            
+                placeholder="Enter your E-Mail Address" 
+                type="email">
+            </div>
+
             <div>
+                <h4>Message</h4>
                 <textarea 
-                class="textarea contact-fields" 
+                class="input contact-fields" 
                 placeholder="Your message"
                 name="message"
                 rows="10"
                 required
                 ></textarea>
-            </div>
-            <div>
+                </div>
+
+            <div class="send-btn-div">
                 <button 
-                routerLink="/contactsuccess"
-                (click)="form.submit()"
-                class="button margin-bottom"
-                type="submit"
-                >Submit</button>
+                type="submit" 
+                class="transition tuerkis-button">Send
+                </button>
             </div>
-
-
-        </div>
-    </form>
+        </form>
+    </div>
 </div>

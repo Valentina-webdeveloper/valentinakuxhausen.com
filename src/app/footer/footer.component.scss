@@ -6,7 +6,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 24px;
-    background-color: #32465a;
+    background-color: #050b11;
     
     a {
         text-decoration: none;
@@ -20,10 +20,11 @@ footer {
     align-items: center;
     width: 330px;
     margin-top: 24px;
+    background-color: #050b11;
 
     img {
         font-size: 12px;
-        background-color: #32465a;
+        background-color: #050b11;
         padding: 12px;
         transition: 225ms all ease-in-out;
     }
@@ -33,6 +34,7 @@ footer {
 .data-wrap {
     display: flex;
     justify-content: center;
+    background-color: #050b11;
 
     a {
         color: #fff;
@@ -49,9 +51,11 @@ footer {
 }
 
 .copy-wrap {
+    background-color: #050b11;
 
     p {
-        color: #112233;
-        
+        color: #1c2733;
     }
 }
+
+// TODO: @media

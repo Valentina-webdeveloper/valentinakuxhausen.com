@@ -16,7 +16,6 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NavigationService } from './navigation.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ContactSuccessComponent } from './contact-success/contact-success.component';
 import { MySkillsComponent } from './my-skills/my-skills.component';
 
 @NgModule({
@@ -30,7 +29,6 @@ import { MySkillsComponent } from './my-skills/my-skills.component';
     AboutComponent,
     ProjectsComponent,
     ContactComponent,
-    ContactSuccessComponent,
     MySkillsComponent
   ],
   imports: [
