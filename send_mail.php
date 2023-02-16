@@ -3,7 +3,7 @@
 ########### CONFIG ###############
 
 $recipient = 'valentina.kuxhausen@web.de';
-$redirect = 'https://valentina-kuxhausen.developerakademie.net/valentinakuxhausen/contactsuccess';
+$redirect = 'https://src/app/contact-success/contact-success.component.html';
 
 ########### CONFIG END ###########
 

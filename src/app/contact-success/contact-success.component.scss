@@ -1,0 +1,26 @@
+.success-body {
+    padding-top: 280px;
+    height: calc(100vh - 180px);
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    h1 {
+        font-size: 36px;
+        margin-top: 0%;
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 24px;
+        color: white;
+
+
+    }
+}
+
+.success {
+    color: var(--main-color);
+}

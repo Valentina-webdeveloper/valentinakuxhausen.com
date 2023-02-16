@@ -8,7 +8,7 @@ $size: 10rem;
 }
 
 .welcome-top {
-    height: 100vh;
+    height: 70%;
     display: flex;
     justify-content: center;
 }
@@ -79,7 +79,7 @@ $size: 10rem;
 }
 
 .welcome-div-bottom {
-    height: 30%;
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -142,6 +142,7 @@ $size: 10rem;
     .btn-div {
         padding-left: 0px;
         justify-content: center;
+        height: 40%;
     }
 
     .welcome-top-right {
