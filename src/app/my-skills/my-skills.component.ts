@@ -25,11 +25,11 @@ export class MySkillsComponent implements OnInit {
     },
     {
       icon: 'scrum.png',
-      name: 'SCRUM'
+      name: 'Scrum'
     },
     {
       icon: 'Git.png',
-      name: 'GIT / GITHUB'
+      name: 'Git'
     },
     {
       icon: 'rest-api.png',
@@ -40,11 +40,11 @@ export class MySkillsComponent implements OnInit {
       name: 'Firebase'
     },
     {
-      icon: 'windows-logo.png',
+      icon: 'azure.png',
       name: 'MS Azure'
     },
     {
-      icon: 'windows-logo.png',
+      icon: 'confluence.png',
       name: 'Confluence'
     },
     {

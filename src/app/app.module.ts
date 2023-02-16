@@ -18,6 +18,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MySkillsComponent } from './my-skills/my-skills.component';
 import { ContactSuccessComponent } from './contact-success/contact-success.component';
+import { ShowService } from './show.service';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,7 @@ import { ContactSuccessComponent } from './contact-success/contact-success.compo
     BrowserAnimationsModule,
     ReactiveFormsModule,
   ],
-  providers: [NavigationService],
+  providers: [NavigationService, ShowService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
