@@ -4,7 +4,7 @@
             <h1 data-aos="flip-right" data-aos-duration="800">CONTACT</h1><br>
             <span>Get in touch to work together?</span>
         </div>        
-        <form action="https://valentinakuxhausen.com/send_mail.php" 
+        <form #form action="https://valentinakuxhausen.com/send_mail.php" 
         method="POST" 
         class="column-contact">
 
@@ -30,17 +30,17 @@
 
             <div>
                 <h4>Message</h4>
-                <textarea 
+                <textarea
+                name="message" 
+                required
                 class="input contact-fields" 
                 placeholder="Your message"
-                name="message"
                 rows="10"
-                required
                 ></textarea>
                 </div>
 
             <div class="send-btn-div">
-                <button 
+                <button (click)="form.submit()" 
                 type="submit" 
                 class="transition tuerkis-button">Send
                 </button>
@@ -49,5 +49,5 @@
     </div>
 </div>
 
-<!-- show Service um componente auszublenden und anzuzeiugen -->
-<app-contact-success disabled *ngIf=""></app-contact-success>
+<!-- <app-contact-success disabled *ngIf=""></app-contact-success> -->
+ 
