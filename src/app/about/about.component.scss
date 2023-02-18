@@ -5,6 +5,7 @@ $size: 10rem;
     color: white;
     padding-top: 95px;
     padding: 8px;
+    
 }
 
 .welcome-top {
@@ -124,6 +125,10 @@ $size: 10rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        left: 0;
     }
 }
 

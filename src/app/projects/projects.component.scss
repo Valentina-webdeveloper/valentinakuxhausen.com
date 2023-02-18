@@ -130,6 +130,13 @@ p {
 }
 
 @media (max-width: 1500px) {
+    .my-projects-div {
+        width: 100%;
+        right: 0;
+        left: 0;
+
+    }
+
     .preview {
         width: 945px;
         flex-wrap: wrap;

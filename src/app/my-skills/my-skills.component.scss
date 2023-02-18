@@ -1,10 +1,10 @@
+.my-skills-div {
+    background-color: #1c2733;
+}
+
 .skill-icon {
     width: 30px;
     height: 30px;
-}
-
-.my-skills-div {
-    background-color: #1c2733;
 }
 
 .div-distance {
@@ -72,6 +72,13 @@
 }
 
 @media (max-width: 1500px) {
+    .my-skills-div {
+        width: 100%;
+        right: 0;
+        left: 0;
+
+    }
+    
     .bottom-div-div {
         width: 945px;
     }

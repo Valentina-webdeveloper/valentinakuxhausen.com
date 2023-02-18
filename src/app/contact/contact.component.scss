@@ -90,6 +90,25 @@ h4 {
 }
 
 @media (max-width: 1500px) {
+    .contact-div {
+        width: 100%;
+        right: 0;
+        left: 0;
+
+    }
+
+    .input {
+        width: 100%;
+        right: 0;
+        left: 0;
+
+    }
+
+.form {
+    display: flex;
+    justify-content: center;
+    
+}
     .contact-div-div {
         width: 945px;
     }
