@@ -1,14 +1,17 @@
-header {
+.fixed-nav {
     display: flex;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 1;
     align-items: center;
     justify-content: center;
     background-color: #050b11;
-    
+    position: fixed;
+    z-index: 5;
+    height: 80px;
+    // left: 0;
+    // right: 0;
+    // top: 0;
+    width: 100vw;
+
+
     a {
         text-decoration: none;
         font-size: large;
@@ -18,34 +21,23 @@ header {
 
         &:hover {
             color: #a03ce2;
-            text-shadow: 0 0 6px  #a03ce2;
+            text-shadow: 0 0 6px #a03ce2;
         }
     }
 
-    img {
-        height: 30px;
-        cursor: pointer;
-    }
-}
-
-.fixed-nav {
-    position: fixed;
-    top: 0;
-    z-index: 5;
-    height: 80px;
 }
 
 .darkLinks {
     a {
         color: black;
 
-        }
     }
+}
 
 
 .headerDark {
     background-color: white;
-    box-shadow: 0 1px 3px 0 black(0,0,0,0.2);
+    box-shadow: 0 1px 3px 0 black(0, 0, 0, 0.2);
 }
 
 
@@ -54,7 +46,18 @@ header {
         width: 100%;
         right: 0;
         left: 0;
+
+        a {
+            font-size: 16px;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+    }
+
+    @media (max-width: 376px) {
+        .fixed-nav {
+            height: 50px;
+        }
     }
 
 }
-

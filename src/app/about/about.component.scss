@@ -94,10 +94,14 @@ $size: 10rem;
     }
 
     .profile-img {
-        width: 290px;
-        height: 290px;
+        width: 190px;
+        height: 190px;
     }
 
+    .welcome-top {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width: 1045px) {
@@ -125,10 +129,14 @@ $size: 10rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        position: absolute;
+        // width: 100vw;
+        // position: absolute;
         right: 0;
         left: 0;
+    }
+
+    .welcome-top {
+        margin-bottom: 48px;
     }
 }
 
@@ -196,6 +204,8 @@ $size: 10rem;
         width: 40px;
         height: 40px;
     }
+
+    
 }
 
 @media (max-width: 480px) and (max-height: 480px) {
@@ -238,6 +248,7 @@ $size: 10rem;
     .contact-button {
         padding-left: 20px;
         padding-right: 20px;
+        
     }
 
 
@@ -270,5 +281,17 @@ $size: 10rem;
     to {
         transform: translateX(0px);
         opacity: 1;
+    }
+}
+
+@media(max-width: 375px) and (max-heigth: 667px) {
+    .welcome-div {
+        width: 100vw;
+
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
     }
 }

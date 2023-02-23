@@ -35,7 +35,7 @@ h4 {
     background-color: #050b11;
     margin: 12px;
     padding: 16px;
-    border-radius: 4px 4px 0 0;    
+    border-radius: 4px 4px 0 0;
 }
 
 .input {
@@ -45,22 +45,23 @@ h4 {
 
     &:focus {
         outline: none;
-    }    
+    }
 }
 
 ::placeholder {
     color: white;
 }
 
-.contact-div-div{
+.contact-div-div {
     width: 1155px;
+
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
+// .form {
+//     display: flex;
+//     flex-direction: column;
+//     width: 100%;
+// }
 
 .send-btn-div {
     margin-top: 20px;
@@ -90,56 +91,70 @@ h4 {
 }
 
 @media (max-width: 1500px) {
+
+    .contact-div-div {
+        width: 945px;
+    }
+
     .contact-div {
-        width: 100%;
         right: 0;
         left: 0;
-
     }
 
     .input {
         width: 100%;
         right: 0;
         left: 0;
-
     }
 
-.form {
-    display: flex;
-    justify-content: center;
-    
-}
-    .contact-div-div {
-        width: 945px;
+    .div-distance {
+        padding-top: 70px;
     }
+
 }
 
-@media (max-width: 1040px) {
-    .contact-div-div {
-        width: 700px;
-    }
+@media (max-width: 367px) {
+
 }
 
-@media (max-width: 850px) {
-    .contact-div-div {
-        padding-left: 48px;
-        padding-right: 48px;
-    }
+// @media (max-width: 1040px) {
+//     .contact-div-div {
+//         width: 700px;
+//     }
+// }
 
-    .send-btn-div{
-        justify-content: center;
-    }
-}
+// @media (max-width: 850px) {
+//     .contact-div-div {
+//         padding-left: 48px;
+//         padding-right: 48px;
+//         width: 500px;
+//     }
 
-@media (max-width: 500px) {
-    .contact-div-div {
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-}
+//     .send-btn-div {
+//         justify-content: center;
+//     }
+// }
 
-@media (max-width: 410px) {
-    h1 {
-        font-size: 36px;
-    }
-}
+// @media (max-width: 500px) {
+//     .contact-div-div {
+//         padding-left: 32px;
+//         padding-right: 32px;
+//         width: 250px;
+//     }
+// }
+
+// @media (max-width: 410px) {
+//     h1 {
+//         font-size: 36px;
+//     }
+// }
+
+// @media(max-width: 768px) and (min-hight: 1024px) {
+//     .column-contact {
+//         display: flex;
+//         align-items: start;
+//     }
+
+//     .contact-div-div {
+//         width: 450px;
+//     }
