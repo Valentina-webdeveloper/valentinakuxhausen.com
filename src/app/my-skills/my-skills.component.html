@@ -7,10 +7,15 @@
 
         <div class="bottom-div-div">
             <div data-aos="fade-right" data-aos-duration="800" *ngFor="let skill of skills" class="skill-element-div">
+
+
                 <div class="icon-circle">
                     <img class="skill-icon" src="assets/img/{{ skill.icon }}">
                 </div>
-                {{ skill.name }}
+                <div class="skill-name">
+                    {{ skill.name }}
+                </div>
+
             </div>
         </div>
     </div>

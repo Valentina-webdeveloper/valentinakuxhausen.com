@@ -13,6 +13,8 @@ p {
 
 .my-projects-div {
     background-color: #1c2733;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .div-distance {
@@ -45,8 +47,8 @@ p {
 
     &:hover {
         color: white;
-        background-color: #a03ce2;    
-        border-color: #a03ce2;   
+        background-color: #a03ce2;
+        border-color: #a03ce2;
         box-shadow: 0px $size * 0.3 $size 0px rgba(#a03ce2, 0.1);
     }
 }
@@ -93,7 +95,6 @@ p {
     object-fit: cover;
     z-index: -1;
     cursor: pointer;
-
 }
 
 .desc-hidden {
@@ -129,12 +130,13 @@ p {
     }
 }
 
+
+
 @media (max-width: 1500px) {
     .my-projects-div {
         width: 100%;
         right: 0;
         left: 0;
-
     }
 
     .preview {
@@ -142,6 +144,35 @@ p {
         flex-wrap: wrap;
     }
 }
+
+@media (max-width: 376px) {
+    .skill-preview {
+        min-width: 260px;
+        max-width: 260px;
+    }
+        .div-distance {
+        padding-top: 70px;
+    }
+}
+
+@media (max-width: 415px) {
+    .div-distance {
+        padding-top: 110px;
+    }
+
+    .skill-preview {
+        min-width: 330px;
+        max-width: 330px;
+    }
+}
+
+@media (max-width: 821px) {
+    .div-distance {
+        padding-top: 128px;
+    }
+}
+
+
 
 @media (max-width: 1040px) {
     .preview {
@@ -170,7 +201,7 @@ p {
         margin-right: 8px;
     }
 
-    .buttons-div{
+    .buttons-div {
         align-items: center;
         flex-direction: column;
     }
@@ -189,17 +220,19 @@ p {
     .preview {
         width: unset;
     }
+        .div-distance {
+        padding-top: 70px;
+    }
+
 }
 
 @media (max-width: 480px) and (orientation: landscape) {
     .skill-preview {
         height: 200px;
     }
+        .div-distance {
+        padding-top: 70px;
+    }
+
 }
 
-@media (max-width: 360px) {
-    .skill-preview {
-        min-width: 260px;
-        max-width: 260px;
-    }
-}

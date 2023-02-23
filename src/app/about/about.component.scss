@@ -94,8 +94,8 @@ $size: 10rem;
     }
 
     .profile-img {
-        width: 190px;
-        height: 190px;
+        width: 200px;
+        height: 200px;
     }
 
     .welcome-top {
@@ -103,6 +103,15 @@ $size: 10rem;
         flex-direction: column-reverse;
     }
 }
+
+@media (max-width: 821px) {
+    .profile-img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+
 
 @media (max-width: 1045px) {
     .welcome-text {
@@ -129,8 +138,6 @@ $size: 10rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        // width: 100vw;
-        // position: absolute;
         right: 0;
         left: 0;
     }
@@ -217,7 +224,6 @@ $size: 10rem;
 }
 
 @media (max-width: 480px) and (min-height: 1000px) {
-
     .profile-img {
         width: 200px;
         height: 200px;

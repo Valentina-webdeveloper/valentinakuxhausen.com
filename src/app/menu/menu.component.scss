@@ -6,9 +6,6 @@
     position: fixed;
     z-index: 5;
     height: 80px;
-    // left: 0;
-    // right: 0;
-    // top: 0;
     width: 100vw;
 
 
@@ -24,21 +21,19 @@
             text-shadow: 0 0 6px #a03ce2;
         }
     }
-
 }
 
 .darkLinks {
     a {
         color: black;
-
     }
 }
-
 
 .headerDark {
     background-color: white;
     box-shadow: 0 1px 3px 0 black(0, 0, 0, 0.2);
 }
+
 
 
 @media (max-width: 1500px) {
@@ -53,11 +48,13 @@
             margin-right: 12px;
         }
     }
+}
 
-    @media (max-width: 376px) {
-        .fixed-nav {
-            height: 50px;
-        }
+@media (max-width: 376px) {
+    .fixed-nav {
+        height: 50px;
     }
+}
 
+@media (max-width: 821px) {
 }
