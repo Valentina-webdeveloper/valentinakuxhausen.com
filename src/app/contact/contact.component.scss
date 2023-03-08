@@ -120,12 +120,30 @@ h4 {
     .input-message {
         height: 100px;
     }
+
+    .column-contact {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 415px) {
     .div-distance {
         padding-top: 110px;
     }
+
+    .contact-div-div {
+        width: 300px;
+    }
+
+    .h-input {
+        width: 300px;
+    }
+
+    .column-contact {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 821px) {
@@ -133,9 +151,14 @@ h4 {
         padding-bottom: 88px;
     }
 
-    .h-input {
+    .contact-div-div {
         width: 600px;
     }
+
+    .column-contact {
+        width: 100%;        
+    }
+
 }
 
 
@@ -165,12 +188,6 @@ h4 {
         width: 250px;
     }
 }
-
-// @media (max-width: 410px) {
-//     h1 {
-//         font-size: 36px;
-//     }
-// }
 
 @media(max-width: 768px) and (min-hight: 1024px) {
     .column-contact {

@@ -3,55 +3,33 @@
         <div class="column-contact">
             <h1 data-aos="flip-right" data-aos-duration="800">CONTACT</h1><br>
             <span>Get in touch to work together?</span>
-        </div>   
-        
-        
+        </div>
 
-        <form #form action="https://valentinakuxhausen.com/send_mail.php" 
-        method="POST" 
-        class="column-contact">
+
+
+        <form class="column-contact" #form action="https://valentinakuxhausen.com/send_mail.php" method="POST">
 
 
             <div class="h-input">
                 <h4>Name</h4>
-                <input 
-                data-aos="fade-right" data-aos-duration="800"
-                name="name" 
-                required 
-                class="input" 
-                placeholder="Enter your Name" 
-                type="text">
+                <input data-aos="fade-right" data-aos-duration="800" name="name" required class="input"
+                    placeholder="Enter your Name" type="text">
             </div>
 
             <div class="h-input">
                 <h4>E-Mail</h4>
-                <input 
-                data-aos="fade-right" data-aos-duration="800"
-                name="email" 
-                required 
-                class="input" 
-                placeholder="Enter your E-Mail Address" 
-                type="email">
+                <input data-aos="fade-right" data-aos-duration="800" name="email" required class="input"
+                    placeholder="Enter your E-Mail Address" type="email">
             </div>
 
             <div class="h-input">
                 <h4>Message</h4>
-                <textarea
-                data-aos="fade-right" data-aos-duration="800"
-                name="message" 
-                required
-                class="input input-message" 
-                placeholder="Your message"
-                rows="7"
-                ></textarea>
-                </div>
+                <textarea data-aos="fade-right" data-aos-duration="800" name="message" required
+                    class="input input-message" placeholder="Your message" rows="7"></textarea>
+            </div>
 
-            <div 
-            data-aos="fade-right" data-aos-duration="800"
-            class="send-btn-div">
-                <button (click)="form.submit()" 
-                type="submit" 
-                class="transition tuerkis-button">Send
+            <div class="send-btn-div" data-aos="fade-right" data-aos-duration="800">
+                <button (click)="form.submit()" type="submit" class="transition tuerkis-button">Send
                 </button>
             </div>
         </form>
@@ -59,4 +37,3 @@
 </div>
 
 <!-- <app-contact-success disabled *ngIf=""></app-contact-success> -->
- 
