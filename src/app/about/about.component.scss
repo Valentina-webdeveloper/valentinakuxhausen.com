@@ -1,6 +1,9 @@
 $size: 10rem;
 
 .welcome-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     color: white;
     padding-top: 95px;
@@ -15,6 +18,7 @@ $size: 10rem;
 }
 
 .welcome-top-left {
+    height: 100vh;
     .v {
         color: #a03ce2;
     }
@@ -28,14 +32,16 @@ $size: 10rem;
     height: 60%;
     display: flex;
     align-items: center;
+    text-align: center;
     overflow: hidden;
     font-size: 44px;
-    padding-top: 128px;
+    padding-top: 20px;
 }
 
 .btn-div {
     display: flex;
-    align-items: center;
+    // align-items: center;
+    justify-content: center;
 }
 
 .contact-button {
@@ -62,7 +68,7 @@ $size: 10rem;
     justify-content: center;
     align-items: center;
     overflow-x: inherit;
-    padding-left: 90px;
+    // padding-left: 90px;
     padding-top: 128px;
 }
 
@@ -184,12 +190,8 @@ $size: 10rem;
 @media (max-width: 1240px) and (orientation : landscape) {
 
     .welcome-text {
-        padding-left: 60px;
+        // padding-left: 60px;
         font-size: 32px;
-    }
-
-    .btn-div {
-        padding-left: 60px;
     }
 
     .welcome-div-top {
@@ -197,9 +199,9 @@ $size: 10rem;
 
     }
 
-    .welcome-top-right {
-        padding-right: 60px;
-    }
+    // .welcome-top-right {
+    //     padding-right: 60px;
+    // }
 
     .welcome-text {
         padding-top: unset;
@@ -293,7 +295,7 @@ $size: 10rem;
 @media(max-width: 375px) and (max-heigth: 667px) {
     .welcome-div {
         width: 100vw;
-
+        // width: 100vh;
     }
 
     .profile-img {
